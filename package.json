@@ -1,0 +1,16 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "author": "velya",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

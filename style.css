@@ -1,0 +1,163 @@
+body {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.sign-in {
+    height: 100vh;
+    align-items: stretch;
+    display: flex;
+}
+.left {
+    margin: auto;
+    align-content: center;
+    width: 100%;
+
+}
+.form {
+
+    margin-left:  auto;
+    margin-right:  auto;
+    width: 366px;
+    /*border: 1px solid red;*/
+}
+
+
+@media screen and (max-width: 1200px){
+    .right{
+
+        display: none;
+    }
+    .left {
+        height: 100vh;
+        width: 100vh;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+    .form{
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+    .sign-in{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-content: center;
+    }
+}
+
+.sign {
+    font-family: Avenir;
+    font-style: normal;
+    padding-bottom: 32px;
+    font-size: 36px;
+    color: #344472;
+}
+.header {
+    font-family: Avenir;
+    font-style: normal;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #707070;
+}
+.entry-field {
+    padding-left: 12px;
+    outline: none;
+    border: none;
+    width: 354px;
+    height: 40px;
+    background-color: #e0dede;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.entry-field2 {
+    padding-left: 12px;
+    background-repeat: no-repeat;
+    background-position: 338px 12px, right;
+    background-image: url("../img/icon/close_eye.svg");
+    outline: none;
+    border: none;
+    width: 354px;
+    height: 40px;
+    background-color: #e0dede;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.accept{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    border-radius: 2px;
+    color: #707070;
+}
+span{
+
+    margin-top: 1px;
+    color: #707070;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.eye-button{
+    border: none;
+    box-decoration: none;
+    background-color: #FFFFFF;
+}
+.red-bottom {
+
+    /*display: flex;*/
+    /*align-content: center;*/
+    border: none;
+    text-align: center;
+    line-height: 36px;
+    width: 366px;
+    height: 42px;
+    background-color: #32a15d;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    color: #F5FBFF;
+}
+@font-face{
+    font-family: Avenir;
+    src: url("avenir_ff/AvenirLTStd-Book.otf");
+    src: local(Avenir), url(avenir_ff/AvenirLTStd-Book.otf);
+}
+.rem-password {
+    font-family: Avenir;
+    font-style: normal;
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+}
+a{
+    font-family: Avenir;
+    font-style: normal;
+    color: #FFFFFF;
+}
+input:hover{
+    background-color: #cfcdcde8;
+}
+input:focus{
+    box-shadow: 0px 0px 5px #b8b6b6e8;
+}
+.red-bottom:hover{
+    background-color: #358b56;
+}
+.red-bottom:active{
+    background-color: #38965c;
+}
+.text-rem-password {
+
+    font-family: Avenir;
+    font-style: normal;
+    color: #32a15d;
+}
+
+
